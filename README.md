@@ -115,6 +115,16 @@ Below is the demonstration of the **Skin Disease Classifier** application.
 
 ---
 
+## 🎥 Demo 2
+
+Below is the demonstration of the **Skin Disease Classifier** application.
+
+[![Watch the demo](demo/screenshot.jpg)](demo/demo.mp4)
+
+> The demo shows how the user uploads skin images, receives disease predictions, and views bilingual treatment advice.
+
+---
+
 ## 🧾 License
 Released under the **MIT License** — free for educational, academic, and research use.
 
