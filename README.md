@@ -99,23 +99,10 @@ This model recognizes a wide range of dermatological conditions, including:
 - Vitiligo  
 ...and more (over **30 classes** total).
 
+
 ---
 
 ## 🎥 Demo
-
-Below is the demonstration of the **Skin Disease Classifier** application.
-
-### 🖼 App Interface
-![App Screenshot](demo/screenshot.jpg)
-
-### 🎬 Live Demo
-[Click here to watch the demo video](demo/demo.mp4)
-
-> The demo shows how the user uploads skin images, receives disease predictions, and views bilingual treatment advice.
-
----
-
-## 🎥 Demo 2
 
 Below is the demonstration of the **Skin Disease Classifier** application.
 
