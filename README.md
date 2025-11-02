@@ -42,6 +42,37 @@ It provides high accuracy and runs efficiently on both CPU and GPU.
 
 ---
 
+## 🧩 Key Libraries and Frameworks
+
+The project integrates several major Python libraries, each contributing to a specific stage of the system:
+
+### 🔹 TensorFlow / Keras
+Used for **model design, training, and fine-tuning**.  
+A pre-trained **MobileNetV2** architecture was imported and retrained on 56,000 labeled images across 30 skin diseases.  
+TensorFlow handled GPU acceleration and model serialization (`.h5` format).
+
+### 🔹 OpenCV
+Responsible for **image preprocessing** — including resizing, normalization, and enhancement before feeding the data into the neural network.  
+It also helps with real-time visualization and testing during model validation.
+
+### 🔹 NumPy & Pandas
+Used for **data manipulation and statistical analysis** of the dataset before model training.  
+These libraries ensure efficient handling of large image metadata and CSV-based class mappings.
+
+### 🔹 Tkinter
+Provides the **Graphical User Interface (GUI)**.  
+Users can upload up to three images, view predictions, and read disease information or treatment advice in either English or Persian.  
+This bilingual GUI was designed to be lightweight and intuitive.
+
+### 🔹 Matplotlib
+Used mainly for **visualizing training metrics** (accuracy/loss graphs) and dataset distributions.
+
+---
+
+> These libraries together enable the app to combine machine learning, data processing, and user interactivity into a unified desktop-based skin disease detection tool.
+
+---
+
 ## 🧪 Datasets Used
 Training data was collected from publicly available Kaggle datasets:
 
