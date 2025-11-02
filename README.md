@@ -119,7 +119,13 @@ Below is the demonstration of the **Skin Disease Classifier** application.
 
 Below is the demonstration of the **Skin Disease Classifier** application.
 
-[![Watch the demo](demo/screenshot.jpg)](demo/demo.mp4)
+### 🖼 App Screenshot
+![App Screenshot](demo/screenshot.jpg)
+
+### ▶️ Watch Demo Video
+<a href="https://github.com/alisattarzadeh46/Skin-Disease-Classifier/raw/main/demo/demo.mp4">
+  <img src="https://img.shields.io/badge/Click_to_Watch-Demo_Video-blue?style=for-the-badge&logo=playstation" alt="Watch Demo Video">
+</a>
 
 > The demo shows how the user uploads skin images, receives disease predictions, and views bilingual treatment advice.
 
