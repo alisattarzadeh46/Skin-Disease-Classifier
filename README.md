@@ -105,13 +105,13 @@ This model recognizes a wide range of dermatological conditions, including:
 
 Below is the demonstration of the **Skin Disease Classifier** application.
 
-![Skin Disease Detector Screenshot](https://github.com/alisattarzadeh46/Skin-Disease-Classifier/raw/main/demo/Screenshot.jpg)
+### App Interface
+![App Screenshot](demo/Screenshot.jpg)
 
-🎬 **Watch the demo video:**  
-https://github.com/alisattarzadeh46/Skin-Disease-Classifier/raw/main/demo/demo.mp4
+### Live Demo
+![Demo Video Preview](demo/demo.mp4)
 
 > The demo shows how the user uploads skin images, receives disease predictions, and views bilingual treatment advice.
-
 
 ---
 
