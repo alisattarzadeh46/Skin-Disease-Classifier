@@ -47,7 +47,9 @@ Training data was collected from publicly available Kaggle datasets:
 
 1. [20 Skin Diseases Dataset – Haroon Alam](https://www.kaggle.com/datasets/haroonalam16/20-skin-diseases-dataset?resource=download)  
 2. [Skin Diseases Image Dataset – Ismail Promus](https://www.kaggle.com/datasets/ismailpromus/skin-diseases-image-datase)  
-3. [Skin Disease Dataset – Fares Abbas](https://www.kaggle.com/datasets/faresabbasai2022/skin-disease?utm_source=chatgpt.com)
+3. [Skin Disease Dataset – Fares Abbas](https://www.kaggle.com/datasets/faresabbasai2022/skin-disease?utm_source=chatgpt.com)  
+4. [20 Skin Diseases Dataset – Haroon Alam (Alternate Link)](https://www.kaggle.com/datasets/haroonalam16/20-skin-diseases-dataset?utm_source=chatgpt.com)  
+5. [Skin Cancer MNIST: HAM10000 – K. Mader](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000?utm_source=chatgpt.com)
 
 After preprocessing and augmentation, the final merged dataset contained approximately **56,000 images** across **30 unique classes**.
 
