@@ -103,20 +103,14 @@ This model recognizes a wide range of dermatological conditions, including:
 
 ## 🎥 Demo
 
-Below is a preview of the application's user interface and functionality.
+Below is the demonstration of the **Skin Disease Classifier** application.
 
-### 🖼️ Interface Screenshot
-<img src="https://github.com/alisattarzadeh46/Skin-Disease-Classifier/raw/main/demo/Screenshot.jpg" width="700" alt="App Interface">
+![App Screenshot](demo/Screenshot.jpg)
 
-### ▶️ Live Demo Video
-<p align="center">
-  <video src="https://github.com/alisattarzadeh46/Skin-Disease-Classifier/raw/main/demo/demo.mp4" width="700" controls>
-    Your browser does not support the video tag.
-  </video>
-</p>
+🎬 **Watch the demo video:**  
+[Click to play demo](https://github.com/alisattarzadeh46/Skin-Disease-Classifier/raw/main/demo/demo.mp4)
 
-> The video demonstrates how the bilingual GUI allows users to upload skin images, get instant predictions, and view treatment advice.
-
+> The demo shows how the user uploads skin images, receives disease predictions, and views bilingual treatment advice.
 
 ---
 
