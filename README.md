@@ -1,29 +1,28 @@
-# 🩺 Skin Disease Classifier | تشخیص خودکار بیماری‌های پوستی
+# 🩺 Skin Disease Classifier
 
-A bilingual (English–Persian) deep learning-based desktop application for **automatic skin disease classification**, built using **TensorFlow**, **Keras**, and **Tkinter GUI**.
+A bilingual deep learning-based desktop application for **automatic skin disease classification**, built using **TensorFlow**, **Keras**, and **Tkinter GUI**.
 
-این نرم‌افزار به صورت **دو‌زبانه (فارسی و انگلیسی)** طراحی شده و قادر است بیماری‌های پوستی را از روی تصویر کاربر شناسایی کند.  
-کاربر می‌تواند ۱ تا ۳ تصویر پوستی را بارگذاری کند تا مدل بیماری را پیش‌بینی و توضیحات و درمان پیشنهادی را نمایش دهد.
+This software is capable of identifying skin diseases from user-submitted images.  
+Users can upload 1–3 skin images, and the model will predict the disease class, provide a short description, and offer treatment advice.
 
 ---
 
-## 🌍 Languages | زبان‌ها
+## 🌍 Languages
 - English 🇬🇧  
-- فارسی 🇮🇷  
+- Persian 🇮🇷  
 
-The user can switch between English and Persian interfaces using language buttons on the top of the app window.  
-کاربر می‌تواند با انتخاب پرچم‌ها، زبان رابط کاربری را تغییر دهد.
+The application provides a bilingual interface, allowing users to switch between **English** and **Persian** using language buttons located on the top bar.
 
 ---
 
-## 🚀 Features | ویژگی‌ها
-- 🔍 Upload and classify **1–3 skin images** instantly  
-- 🧠 Fine-tuned **MobileNetV2** model implemented with TensorFlow/Keras  
-- 🌐 **Bilingual interface (Persian + English)**  
-- 💊 Integrated buttons for:
-  - 🧠 **ChatGPT API** connection *(requires your own API key implementation)*  
-  - 🛒 **Drug Store API** integration *(for medical product suggestions)*  
-- 📊 Detailed prediction panel including:
+## 🚀 Features
+- Upload and classify **1–3 skin images** instantly  
+- Fine-tuned **MobileNetV2** model using TensorFlow and Keras  
+- **Bilingual user interface** (English + Persian)  
+- Integrated buttons for future extensions:  
+  - 🧠 **ChatGPT API connection** *(requires your own API key implementation)*  
+  - 🛒 **Drug Store API connection** *(for integrating medicine store features)*  
+- Displays:
   - Disease name  
   - Description  
   - Treatment advice  
@@ -31,11 +30,12 @@ The user can switch between English and Persian interfaces using language button
 ---
 
 ## 🧠 Model Overview
-The classifier uses a **fine-tuned MobileNetV2** architecture trained on multiple public Kaggle datasets of dermatology images for efficient and accurate recognition.
+The classifier uses a **fine-tuned MobileNetV2** architecture trained on a large dermatology dataset containing **56,000 images** across **30 skin disease categories**.  
+It achieves efficient and accurate classification performance suitable for real-time inference on both CPU and GPU.
 
 > ⚠️ **Note:**  
-> The public version of this repository does **not include** the trained model file (`skin_model_final_v3.h5`) or dataset.  
-> You can retrain the model using:
+> The public version of this repository does **not include** the trained model file (`skin_model_final_v3.h5`) or datasets.  
+> You can retrain your own model using:
 > ```bash
 > python train_model_finetune.py
 > ```
@@ -43,7 +43,7 @@ The classifier uses a **fine-tuned MobileNetV2** architecture trained on multipl
 ---
 
 ## 🧬 Diseases Covered
-This project supports classification of multiple skin conditions, including:
+The model can recognize more than **30 skin disease categories**, including:
 - Acne  
 - Eczema  
 - Psoriasis  
@@ -58,13 +58,13 @@ This project supports classification of multiple skin conditions, including:
 ---
 
 ## 🧪 Datasets Used
-Trained using public Kaggle datasets:
+The model was trained using publicly available Kaggle datasets of dermatological images labeled by experts:
 
 1. [20 Skin Diseases Dataset – Haroon Alam](https://www.kaggle.com/datasets/haroonalam16/20-skin-diseases-dataset?resource=download)  
 2. [Skin Diseases Image Dataset – Ismail Promus](https://www.kaggle.com/datasets/ismailpromus/skin-diseases-image-datase)  
 3. [Skin Disease Dataset – Fares Abbas](https://www.kaggle.com/datasets/faresabbasai2022/skin-disease?utm_source=chatgpt.com)
 
-All datasets were preprocessed, resized, and augmented before training to improve generalization and reduce overfitting.
+After preprocessing, cleaning, and augmentation, the combined dataset contained approximately **56,000 images** of **30 distinct skin conditions**.
 
 ---
 
@@ -77,22 +77,24 @@ All datasets were preprocessed, resized, and augmented before training to improv
    ```bash
    python run_app.py
    ```
-3. Upload your skin image(s) and view the disease prediction.
+3. Upload your skin image(s) and view real-time disease predictions.
 
 ---
 
-## 🎥 Demo | نمای دمو
+## 🎥 Demo
 
-A short demo video and interface screenshot are included below.
+Below is the demo video and screenshot of the application's interface.
 
-### ▶️ [Watch the demo video](https://github.com/alisattarzadeh46/Skin-Disease-Classifier/blob/main/demo/demo.mp4)
+### ▶️ Demo Video
+<video src="https://github.com/alisattarzadeh46/Skin-Disease-Classifier/raw/main/demo/demo.mp4" width="700" controls></video>
 
-![App Screenshot](demo/app_interface.jpg)
+### 🖼️ App Screenshot
+<img src="https://github.com/alisattarzadeh46/Skin-Disease-Classifier/raw/main/demo/Screenshot.jpg" width="600" alt="App Interface">
 
 ---
 
 ## 🧾 License
-Released under the **MIT License** — free for educational and research use.
+Released under the **MIT License** — free for educational, academic, and research use.
 
 ---
 
