@@ -151,6 +151,32 @@ Below is the demonstration of the **Skin Disease Classifier** application.
 
 ---
 
+## 🏗️ Project Architecture
+
+The **Skin Disease Classifier** project follows a **Modular MVC (Model–View–Controller)** architecture combined with a **component-based structure** for clarity, scalability, and maintainability.
+
+### 🔹 Overview
+
+- **Model (M):**  
+  Handles machine learning logic — training, fine-tuning, and prediction using TensorFlow/Keras.  
+  **Key scripts:**  
+  - `train_model_finetune.py` → fine-tunes the MobileNetV2 model on the merged dataset.  
+  - `predict.py` → loads the trained model and performs inference on user images.  
+  - `merge_skin_datasets.py` → merges multiple Kaggle datasets into a unified structure.
+
+- **View (V):**  
+  Provides the bilingual graphical user interface (English and Persian) for user interaction.  
+  - Located in the `ui/` folder.  
+  - Built with **Tkinter**, displaying uploaded images, predictions, disease descriptions, and treatment advice.  
+  - Supports visual results and multilingual text rendering.
+
+- **Controller (C):**  
+  Bridges the model and the user interface.  
+  - Implemented mainly in `run_app.py`.  
+  - Manages workflow events — image upload, model prediction, and dynamic UI updates.
+
+---
+
 ## 🧾 License
 Released under the **MIT License** — free for educational, academic, and research use.
 
