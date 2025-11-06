@@ -182,8 +182,4 @@ Released under the **MIT License** — free for educational, academic, and resea
 
 ---
 
-## 👨‍💻 Author
-Developed by **Ali Sattarzadeh**  
-For academic and research purposes in **Machine Learning** and **Computer Vision**.
-
 > ⭐ If you like this project, please star the repository on GitHub!
